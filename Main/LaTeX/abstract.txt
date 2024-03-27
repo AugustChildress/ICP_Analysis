@@ -1,1 +1,0 @@
-This analysis combined data collected from multiple photmetric observations and tecniques from decades of scientific papers to create code that estimates the distance to the SN1987a-like supernova, SN2018hna.
