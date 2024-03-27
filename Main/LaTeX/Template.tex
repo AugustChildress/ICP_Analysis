@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\author{August R. Childress}
+\title{A Test of LaTeX}
+\date{03/26/2024}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Hello, World! \cite{ECP}
+
+\section{Equations}
+Here are examples of equations in LaTeX.
+
+First, we have the quadratic equation:
+
+\begin{equation}\label{quadratic}
+x = \frac{-b +- \sqrt{b^{2}-4ac}}{2a}
+\end{equation}
+
+Next, we have examples of different styles you can use:
+
+\input{eqns}
+
+\begin{equation}
+	\textrm{This is the basic equation: }
+	F = ma
+	\textrm{, This one is better looking: }
+	\vec{F}_{net} = m\vec{A}
+\end{equation}
+
+Using the quadratic equation \ref{quadratic}, you can solve functions like $Ax^2 + Bx + C = 0$.
+
+Here is the formula for velocity in terms of distance and time with a reference to a graphed example: \ref{fig1}
+\begin{equation}
+v = \frac{distance}{time} 
+\end{equation}
+
+
+\section{Figures}
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{fig1.png}
+\end{center}
+\label{fig1}
+\caption{Here is an example of a figure in LaTeX.}
+
+\end{figure}
+
+\section{References}
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}
+
+
