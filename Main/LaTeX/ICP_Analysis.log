@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.11)  4 APR 2024 08:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.11)  14 APR 2024 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,30 +308,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./abstract.tex) (./ICP_Analysis.bbl) [1
+(./abstract.tex
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./ICP_
-Analysis.aux)
-Package rerunfilecheck Info: File `ICP_Analysis.out' has not changed.
-(rerunfilecheck)             Checksum: 6D7F73FFDA7A3AA69CFA6602CCD78B3B;367.
+LaTeX Warning: Citation `mitchell_locating_2023' on page 1 undefined on input l
+ine 2.
+
+
+LaTeX Warning: Citation `matthews_optical_1963' on page 1 undefined on input li
+ne 2.
+
+) (./introduction.tex) (./eqns.tex) (./ICP_Analysis.bbl [1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [2] (.
+/ICP_Analysis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `ICP_Analysis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ICP_Analysis.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  18C6A5544ED8CE146B6D2E4EACEDA74D;274.
  ) 
 Here is how much of TeX's memory you used:
- 8836 strings out of 476025
- 139248 string characters out of 5790017
- 1857388 words of memory out of 5000000
- 29187 multiletter control sequences out of 15000+600000
- 516947 words of font info for 48 fonts, out of 8000000 for 9000
+ 8849 strings out of 476025
+ 139452 string characters out of 5790017
+ 1859388 words of memory out of 5000000
+ 29191 multiletter control sequences out of 15000+600000
+ 517709 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,76p,259b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ICP_Analysis.pdf (1 page, 70564 bytes).
+ 75i,6n,76p,259b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ICP_Analysis.pdf (2 pages, 90241 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,10 +24,19 @@ x = x[:,np.newaxis]
 a, _, _, _ = np.linalg.lstsq(x, y,rcond=None)
 
 print()
-print("B mag time corrected BV temp distance: "+str(np.round(a/3.086E13/1000000,2))+" Mpc")
+print("V mag time corrected BV temp distance: "+str(np.round(a/3.086E13/1000000,2))+" Mpc")
 
-'''
+#Plot
 plt.plot(x, y, 'bo')
 plt.plot(x, a*x, 'r-')
+# naming the x axis
+plt.xlabel(r"$\frac{\theta}{v}$")
+
+
+# naming the y axis
+plt.ylabel("Time (Julian)")
+
+# giving a title to my graph
+plt.title('Distance Determination for SN 2018hna')
+
 plt.show()
-'''

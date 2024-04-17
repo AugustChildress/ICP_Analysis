@@ -1,5 +1,6 @@
 import math
 import numpy as np
+import matplotlib.pyplot as plt
 
 #importinng files for calcualating tempuratures
 import BVVariables as Var
@@ -57,3 +58,4 @@ a, b = np.polyfit(x, y, 1)
 
 print("V Mag Distance: "+str(round(a/3.086E13/1000000,2))+" Mpc")
 print('t\N{SUBSCRIPT ZERO} = ' + str(round(b,2)) + ' days')
+
