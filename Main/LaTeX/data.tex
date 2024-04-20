@@ -1,0 +1,50 @@
+To determine the distance to the supernova, we need to know a 
+few important things for each day/data point of observation:
+\\
+We need:
+\\
+\\
+$v$: The velocity of the expanding gas, Units: km/s.
+\\
+$t$: The time since explosion, Units: Julian Date.
+\\
+$t_0$: The time of explosion, Units: Julian Date.
+\\
+$z$: The time dialation factor, Unitless.
+\\
+$\theta$: The angular radius, Units: Degrees.
+\\
+\\
+As seen in the figure \ref{fig:distance_graph}, we have 5 data points. 
+For each of these data points, we have a $t$, $v$, and $\theta$.
+\\
+\\
+First we start with velocity $v$. This is determined by looking at 
+the spectrum of the expanding photosphere and seeing how much it is blueshifted compared to 
+a source nearby. This will tell us how fast the expanding gas is moving towards us, thus 
+giving us a velocity.
+\\
+\\
+Next we will find the time $t$, which is as easy as using a device that tells you the 
+julian date\footnote{Julian date is the number of days (and fractions of days) 
+since 12:00 PM November 24, 4714 BC.} of the time of observation. 
+\\
+\\
+$t_0$ is a bit harder to find because we dont always see exactly when a supernova 
+happens, often we find out a few dats after the fact. So for this analysis we used two methods.
+\\
+Method 1: 
+\\
+We calculate the line of best fit normally, which tells us the distance $d$ and the time of explosion $t_0$.
+\\
+Method 2: 
+We calculate the line of best fit but set the y-intercept, $t_0$, to zero, and calculated the distance.
+\\
+\\
+The time dialation factor $z$ is calculated using spectroscopy, looking at spectrums of the light and determing 
+how much time will be dialated from traveling from the direction of the supernova. This is something that needs 
+to be looked up. We did not calculate this ourselves.
+\\
+\\
+Now, we have the angular radius $\theta$. Determinig the angular radius is the most difficult part of this project,
+and requires a large amount of data. To start off, we will look at the equation for calculating $\theta$
