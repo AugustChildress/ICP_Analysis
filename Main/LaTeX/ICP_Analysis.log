@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.11)  20 APR 2024 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.11)  22 APR 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,24 +332,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--40
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--48
+Underfull \hbox (badness 10000) in paragraph at lines 42--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--56
+Underfull \hbox (badness 10000) in paragraph at lines 42--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
 
  []
 
 [2 <./Angular_Radius.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
 
  []
 
 <Distance_Graph.png, id=52, 462.528pt x 346.896pt>
 File: Distance_Graph.png Graphic file (type png)
 <use Distance_Graph.png>
-Package pdftex.def Info: Distance_Graph.png  used on input line 72.
+Package pdftex.def Info: Distance_Graph.png  used on input line 73.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
 ) (./data.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--70
@@ -550,9 +555,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--23
  []
 
 (./ICP_Analysis.bbl [6 <./B-V_Temperature_fit.png>]) [7] (./ICP_Analysis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `ICP_Analysis.out' has not changed.
 (rerunfilecheck)             Checksum: 3FFC8DA927DEFC0E92C6CFF393B4D748;337.
  ) 
@@ -579,7 +581,7 @@ ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
 3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ICP_Analysis.pdf (7 pages, 229602 bytes).
+Output written on ICP_Analysis.pdf (7 pages, 229604 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  140 compressed objects within 2 object streams
