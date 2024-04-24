@@ -18,6 +18,8 @@ a, _, _, _ = np.linalg.lstsq(x, y,rcond=None)
 print()
 print("B mag time corrected BV temp distance: "+str(np.round(a/3.086E13/1000000,2))+" Mpc")
 
+"""Graph of B Filter Distance with Y-intercept of 0"""
+
 #Linear regression that forces a 0 y intercept 
 x = thetaV/(v*24*60*60)
 x = x[:,np.newaxis]

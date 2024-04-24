@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.11)  22 APR 2024 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.11)  24 APR 2024 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,7 +259,11 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box53
 )
-(./ICP_Analysis.aux)
+(./ICP_Analysis.aux
+
+LaTeX Warning: Label `fig:distance_graph' multiply defined.
+
+)
 \openout1 = `ICP_Analysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -309,7 +313,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 (./abstract.tex) (./introduction.tex) (./procedure.tex
-<Angular_Radius.png, id=22, 512.91624pt x 238.8925pt>
+<Angular_Radius.png, id=26, 512.91624pt x 238.8925pt>
 File: Angular_Radius.png Graphic file (type png)
 <use Angular_Radius.png>
 Package pdftex.def Info: Angular_Radius.png  used on input line 14.
@@ -351,7 +355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--63
 
  []
 
-<Distance_Graph.png, id=52, 462.528pt x 346.896pt>
+<Distance_Graph.png, id=56, 462.528pt x 346.896pt>
 File: Distance_Graph.png Graphic file (type png)
 <use Distance_Graph.png>
 Package pdftex.def Info: Distance_Graph.png  used on input line 73.
@@ -539,7 +543,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--122
  []
 
 [5]
-<B-V_Temperature_fit.png, id=95, 462.528pt x 346.896pt>
+<B-V_Temperature_fit.png, id=99, 462.528pt x 346.896pt>
 File: B-V_Temperature_fit.png Graphic file (type png)
 <use B-V_Temperature_fit.png>
 Package pdftex.def Info: B-V_Temperature_fit.png  used on input line 130.
@@ -554,18 +558,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--23
 
  []
 
-(./ICP_Analysis.bbl [6 <./B-V_Temperature_fit.png>]) [7] (./ICP_Analysis.aux)
+(./analysis.tex
+File: Distance_Graph.png Graphic file (type png)
+<use Distance_Graph.png>
+Package pdftex.def Info: Distance_Graph.png  used on input line 11.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--26
+
+ []
+
+[6 <./B-V_Temperature_fit.png>] (./ICP_Analysis.bbl [7]) [8]
+(./ICP_Analysis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `ICP_Analysis.out' has not changed.
-(rerunfilecheck)             Checksum: 3FFC8DA927DEFC0E92C6CFF393B4D748;337.
+(rerunfilecheck)             Checksum: 2E1AE396C3D3EF22EBA2376DE6A4FB17;420.
  ) 
 Here is how much of TeX's memory you used:
- 8922 strings out of 476025
- 140628 string characters out of 5790017
+ 8934 strings out of 476025
+ 140774 string characters out of 5790017
  1861388 words of memory out of 5000000
- 29235 multiletter control sequences out of 15000+600000
+ 29240 multiletter control sequences out of 15000+600000
  517401 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,259b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,76p,259b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -581,10 +609,10 @@ ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
 3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ICP_Analysis.pdf (7 pages, 229604 bytes).
+Output written on ICP_Analysis.pdf (8 pages, 234301 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
